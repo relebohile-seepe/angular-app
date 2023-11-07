@@ -1,0 +1,25 @@
+<h2 class="heading">Tour of Heroes</h2>
+<table [ngClass]="'custom-table-option-' + selectedOption">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Power</th>
+      <ng-container *ngFor="let hero of heroes">
+        <ng-container *ngFor="let stat of hero.stats">
+          <th>{{ stat.key }}</th>
+        </ng-container>
+      </ng-container>
+      <th>Evolve</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let hero of heroes">
+      <td>{{ hero.name }}</td>
+      <td>{{ hero.power }}</td>
+      <ng-container *ngFor="let stat of hero.stats">
+        <td>{{ stat.value }}</td>
+      </ng-container>
+      <td><button (click)="submitHeroAction(hero.name)">Evolve</button></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,119 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto; // Center the table on the screen
+    width: 80%; // Adjust the width as needed
+  
+    th, td {
+      border: 1px solid #000; // Border on the outside and inside
+      padding: 8px; // Adjust padding as needed
+      text-align: center; // Center the content in cells
+    }
+  
+    th {
+      background-color: #f0f0f0; // background color for table headers
+    }
+  }
+  
+  // Page heading
+  .heading {
+    text-align: center;
+    color:blue;
+    
+  }
+
+  //The following are 4 color related classes
+  .custom-table-option-A {
+    border-collapse: collapse;
+    margin: 0 auto; 
+    width: 80%; 
+  }
+
+  .custom-table-option-A thead{
+   font-weight: 1px;
+   // Additional Styling
+    border: 1px solid #000; // Border on the outside and inside
+    padding: 8px; // Adjust padding as needed
+    text-align: center; // Center the content in cells
+  }
+
+  .custom-table-option-A td{
+    font-weight: 1px;
+    color: white;
+    background-color: red;
+     // Additional Styling
+     border: 1px solid #000; // Border on the outside and inside
+     padding: 8px; // Adjust padding as needed
+     text-align: center; // Center the content in cells
+   }
+
+   .custom-table-option-B {
+    border-collapse: collapse;
+    margin: 0 auto; 
+    width: 80%; 
+  }
+
+  .custom-table-option-B thead{
+   font-weight: 1px;
+   // Additional Styling
+    border: 1px solid white; // Border on the outside and inside
+    padding: 8px; // Adjust padding as needed
+    text-align: center; // Center the content in cells
+  }
+
+  .custom-table-option-B td{
+    font-weight: 2px;
+    color: yellow;
+    background-color:blue;
+     // Additional Styling
+     border: 1px solid black; // Border on the outside and inside
+     padding: 8px; // Adjust padding as needed
+     text-align: center; // Center the content in cells
+   }
+
+   .custom-table-option-C {
+    border-collapse: collapse;
+    margin: 0 auto; 
+    width: 80%; 
+  }
+
+  .custom-table-option-C thead{
+   font-weight: 1px;
+   // Additional Styling
+    border: 1px solid white; // Border on the outside and inside
+    padding: 8px; // Adjust padding as needed
+    text-align: center; // Center the content in cells
+  }
+
+  .custom-table-option-C td{
+    font-weight: 3px;
+    color: black;
+    background-color:pink;
+     // Additional Styling
+     border: 1px solid black; // Border on the outside and inside
+     padding: 8px; // Adjust padding as needed
+     text-align: center; // Center the content in cells
+   }
+
+   .custom-table-option-D {
+    border-collapse: collapse;
+    margin: 0 auto; 
+    width: 80%; 
+  }
+
+  .custom-table-option-D thead{
+   font-weight: 1px;
+   // Additional Styling
+    border: 1px solid white; // Border on the outside and inside
+    padding: 8px; // Adjust padding as needed
+    text-align: center; // Center the content in cells
+  }
+
+  .custom-table-option-D td{
+    font-weight: 1px;
+    color: red;
+    background-color:green;
+     // Additional Styling
+     border: 1px solid white; // Border on the outside and inside
+     padding: 8px; // Adjust padding as needed
+     text-align: center; // Center the content in cells
+   }
